@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+/* Global spacing overrides */
+:root {
+	--gap-tight: 0.5rem;
+	--gap-default: 1rem;
+}
+
+* { box-sizing: border-box; }
+
+/* Reduce default margins for headings and paragraphs to tighten layout */
+h1, h2, h3, h4, p { margin: 0.25rem 0; }
+
+/* Small utility helpers */
+.stack-tight { @apply flex flex-col gap-2; }
+.compact > * + * { margin-top: 0.5rem; }
