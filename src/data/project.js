@@ -7,10 +7,10 @@ export const projects = [
     live: "https://luxora-aesthetic-haven.netlify.app/",
   },
   {
-    title: "Admin Dashboard",
-    description: "Analytics dashboard with charts and auth.",
+    title: "budget brilliance",
+    description: "Analytics chart for budget tracking.",
     tech: ["React", "Chart.js"],
-    github: "https://github.com/yourname/dashboard",
-    live: "https://dashboard.vercel.app",
+    github: "https://github.com/marianaamina97-prog/BUDGET-BRILLIANCE.git",
+    live: "https://budget-brilliance.netlify.app/",
   },
 ];

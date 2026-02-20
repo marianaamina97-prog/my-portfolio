@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-gray-950 text-white scroll-smooth flex flex-col gap-4">
+    <div className="bg-gray-950 text-white scroll-smooth flex flex-col gap-0">
       <Navbar />
       <Hero />
       <About />
