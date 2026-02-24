@@ -4,6 +4,7 @@ export const services = [
   "API Integration",
   "Performance Optimization",
   "UI Implementation from Figma"
+  "Payment configuration"
 ];
 
 export default services;
